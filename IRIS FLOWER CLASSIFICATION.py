@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Load the Iris dataset
-file_path = r"C:\Users\Dharnish\Downloads\IRIS.csv"  # Update with your file path
+file_path = r".\IRIS.csv"  # Update with your file path
 data = pd.read_csv(file_path)
 
 # Explore the dataset
